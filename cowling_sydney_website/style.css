@@ -1,0 +1,264 @@
+body {
+    margin-left: 0;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    background: #fff;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-bottom: 2px solid black;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+
+}
+
+nav li {
+    display: inline;
+    text-align: center;
+    font-size: 25px;
+    font-family: forma-djr-text, sans-serif;
+    font-weight: 400;
+
+}
+
+ul a {
+    text-decoration: none;
+    padding: 15px;
+    color: #000;
+    background: #fff;
+    display: inline-block;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+
+ul a:hover {
+    color: #fff;
+    background: #333;
+}
+
+.logo {
+    text-align: left;
+    font-size: 40px;
+    display: inline;
+    font-family: forma-djr-text, sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.coursenum {
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/*
+.header {
+    background: url(img/header.jpg);
+    background-size: cover;
+    height: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+    grid-column: 1/5;
+}
+*/
+
+.cell {
+    display: grid;
+    background-color: #fff;
+    height: 400px;
+    font-family: forma-djr-text, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: rgb(224, 224, 224);
+    box-shadow: 5px 5px 7px 2px rgba(0, 0, 0, 0.16);
+}
+
+.cell a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.cell a:hover {
+    transform: scale(1.2);
+}
+
+#pro1 {
+    background: url(img/neopixel.jpeg);
+    background-size: cover;
+}
+
+.about {
+    margin-right: 100px;
+    margin-left: 100px;
+    height: 450px;
+}
+
+.pictureMe {
+    height: 300px;
+    width: 400px;
+    background: url(img/me.jpg);
+    background-size: cover;
+    box-shadow: 5px 5px 7px 2px rgba(0, 0, 0, 0.16);
+    float: left;
+    margin-right: 30px;
+}
+
+.aboutText {
+    display: inline;
+    height: 200px;
+    line-height: 40px;
+    word-spacing: 5px;
+    margin: auto;
+}
+
+
+.content {
+    margin-right: 500px;
+    margin-left: 500px;
+}
+
+h1 {
+    font-family: forma-djr-text, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    border-bottom: 2px solid black;
+
+}
+
+h2 {
+    font-family: forma-djr-text, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: forma-djr-text, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+h4 {
+    font-family: forma-djr-text, sans-serif;
+}
+
+p {
+    font-family: forma-djr-text, sans-serif;
+    font-weight: 400;
+}
+
+.image {
+    height: 400px;
+    width: 100%;
+    background-color: aqua;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 7px 2px rgba(0, 0, 0, 0.16);
+}
+
+#one_neopixel1 {
+    background: url(img/neopixel.jpeg);
+    background-size: cover;
+}
+
+#one_neopixel2 {
+    background: url(img/neopixel2.jpeg);
+    background-size: cover;
+}
+
+#two_neopixel1 {
+    background: url(img/2neopixel1.jpg);
+    background-size: cover;
+}
+
+#agate {
+    background: url(img/agate.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+#plastic {
+    background: url(img/plastic.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+#glue {
+    background: url(img/glue.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+#foil1 {
+    background: url(img/foil1.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+#foil2 {
+    background: url(img/foil2.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+#foil3 {
+    background: url(img/foil3.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+#code_lights {
+    background: url(img/code_lights.PNG);
+    background-size: cover;
+    height: 650px;
+}
+
+#motor1 {
+    background: url(img/motor1.jpg);
+    background-size: cover;
+    height: 650px;
+}
+
+#motor2 {
+    background: url(img/motor2.jpg);
+    background-size: cover;
+    height: 650px;
+}
+
+#motorcode1 {
+    background: url(img/code_motor2.PNG);
+    background-size: cover;
+    height: 600px;
+}
+
+#motorcode2 {
+    background: url(img/code_motor1.PNG);
+    background-size: cover;
+    height: 1100px;
+}
